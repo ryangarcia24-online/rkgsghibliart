@@ -172,3 +172,15 @@ strong, .contact-info p {
         }*/
 
 
+
+    /* Target screens smaller than 768px (standard mobile breakpoint) */
+@media (max-width: 768px) {
+  .float-animation {
+    width: 100%;            /* Ensure it spans the width */
+    aspect-ratio: 1 / 1;    /* Forces the square shape */
+    object-fit: cover;      /* Crops the sides so the image isn't distorted */
+    object-position: center; /* Keeps the focus on the middle of the art */
+  }
+}
+
+
