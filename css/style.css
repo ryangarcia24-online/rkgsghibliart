@@ -184,3 +184,20 @@ strong, .contact-info p {
 }
 
 
+video {
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.2); /* Soft neon glow */
+}
+
+/* Pulse Glow Effect */
+
+.pulse-glow {
+    animation: pulse 3s infinite;
+}
+
+@keyframes pulse {
+    0% { box-shadow: 0px 4px 10px rgb(255, 0, 220); }
+    50% { box-shadow: 0px 4px 30px rgb(255, 0, 220), 0px 0px 15px rgba(255, 0, 220, 0.5); }
+    100% { box-shadow: 0px 4px 10px rgb(255, 0, 220); }
+}
+
