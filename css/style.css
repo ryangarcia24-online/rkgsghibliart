@@ -156,7 +156,7 @@ h1, .display-4 {
 
 /* Video Frame: Paper/Canvas style instead of neon */
 .ghibli-video {
-    border: 12px solid var(--ghibli-cream) !important;
+    border: 5px solid var(--ghibli-cream) !important;
     border-radius: 15px;
     box-shadow: 0px 10px 30px rgba(0,0,0,0.5);
     outline: 2px solid var(--ghibli-wood);
